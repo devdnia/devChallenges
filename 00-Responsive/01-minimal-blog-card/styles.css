@@ -6,6 +6,7 @@
 
 body{
     font-family: "Sora", sans-serif;
+    color: #6C727F;
 }
 
 .container-primary{
@@ -89,3 +90,28 @@ hr, .hrcolor {
     color: #666;
     background-color: #E5EAF0;
  }
+
+ @media (max-width: 640px) {
+
+
+
+    body{
+        color: #6C727F;
+    }
+
+    .container-primary{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-secondary{
+        min-width: 450px;
+        height: auto;
+        padding: 45px;
+        margin: 0px auto;
+
+    }
+
+
+  }
